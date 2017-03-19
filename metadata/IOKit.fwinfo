@@ -1,0 +1,367 @@
+// objective.metadata exceptions file, see its document
+// for information on how to update this file.
+{
+ "definitions": {
+  "classes": {}, 
+  "formal_protocols": {}, 
+  "functions": {
+   "IOBSDNameMatching": {
+    "args": {
+     "2": {}
+    }, 
+    "retval": {}
+   }, 
+   "IOCatalogueGetData": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "IOCatalogueSendData": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "IOConnectCallAsyncMethod": {
+    "args": {
+     "3": {}, 
+     "5": {}, 
+     "7": {}, 
+     "9": {}, 
+     "10": {}, 
+     "11": {}, 
+     "12": {}
+    }
+   }, 
+   "IOConnectCallAsyncScalarMethod": {
+    "args": {
+     "3": {}, 
+     "5": {}, 
+     "7": {}, 
+     "8": {}
+    }
+   }, 
+   "IOConnectCallAsyncStructMethod": {
+    "args": {
+     "3": {}, 
+     "5": {}, 
+     "7": {}, 
+     "8": {}
+    }
+   }, 
+   "IOConnectCallMethod": {
+    "args": {
+     "2": {}, 
+     "4": {}, 
+     "6": {}, 
+     "7": {}, 
+     "8": {}, 
+     "9": {}
+    }
+   }, 
+   "IOConnectCallScalarMethod": {
+    "args": {
+     "2": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "IOConnectCallStructMethod": {
+    "args": {
+     "2": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "IOConnectGetService": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IOConnectMapMemory": {
+    "args": {
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "IOConnectMapMemory64": {
+    "args": {
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "IOConnectSetCFProperty": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IOCreateReceivePort": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IODispatchCalloutFromMessage": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "IOKitGetBusyState": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IOKitWaitQuiet": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IOMasterPort": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IONotificationPortCreate": {
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "IONotificationPortDestroy": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "IONotificationPortGetMachPort": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "IONotificationPortGetRunLoopSource": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {}
+   }, 
+   "IONotificationPortSetDispatchQueue": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "IOObjectCopyBundleIdentifierForClass": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "IOObjectCopyClass": {
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "IOObjectCopySuperclassForClass": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "IOOpenFirmwarePathMatching": {
+    "args": {
+     "2": {}
+    }, 
+    "retval": {}
+   }, 
+   "IORegistryCreateIterator": {
+    "args": {
+     "3": {}
+    }
+   }, 
+   "IORegistryEntryCopyFromPath": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IORegistryEntryCopyPath": {
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "IORegistryEntryCreateCFProperties": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "IORegistryEntryCreateCFProperty": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "IORegistryEntryCreateIterator": {
+    "args": {
+     "3": {}
+    }
+   }, 
+   "IORegistryEntryGetChildEntry": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "IORegistryEntryGetChildIterator": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "IORegistryEntryGetParentEntry": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "IORegistryEntryGetParentIterator": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "IORegistryEntryGetProperty": {
+    "args": {
+     "3": {}
+    }
+   }, 
+   "IORegistryEntryGetRegistryEntryID": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IORegistryEntryIDMatching": {
+    "retval": {}
+   }, 
+   "IORegistryEntrySearchCFProperty": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "IORegistryEntrySetCFProperty": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IOServiceAddInterestNotification": {
+    "args": {
+     "0": {}, 
+     "3": {
+      "function": {
+       "args": [
+        {
+         "typestr": "^v"
+        }, 
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "^v"
+        }
+       ], 
+       "retval": {
+        "typestr": "v"
+       }
+      }
+     }, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "IOServiceAddMatchingNotification": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "3": {
+      "function": {
+       "args": [
+        {
+         "typestr": "^v"
+        }, 
+        {
+         "typestr": "I"
+        }
+       ], 
+       "retval": {
+        "typestr": "v"
+       }
+      }
+     }, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "IOServiceAddNotification": {
+    "args": {
+     "2": {}, 
+     "5": {}
+    }
+   }, 
+   "IOServiceGetBusyState": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IOServiceGetMatchingService": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "IOServiceGetMatchingServices": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "IOServiceMatchPropertyTable": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "IOServiceMatching": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {}
+   }, 
+   "IOServiceNameMatching": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {}
+   }, 
+   "IOServiceOpen": {
+    "args": {
+     "3": {}
+    }
+   }, 
+   "IOServiceWaitQuiet": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "OSGetNotificationFromMessage": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }
+  }, 
+  "informal_protocols": {}
+ }
+}
